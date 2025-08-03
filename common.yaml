@@ -1,0 +1,17 @@
+g66:
+  conversion_fee_by_type_of_change: 0.01 # 3000 USD
+  # conversion_fee_by_type_of_change: 0.03 # 50 USD
+  receive_fee_usd: 10.0 # Fee for receiving USD
+  usd_to_usd_fee: 5.0 # Fee for USD to USD transfer
+  rate: 4124.41 # USD to COP rate
+  service_fee_cop: 2478 # Service fee for transfering COP to COP
+  iva_fee: 471 # IVA fee for transfering COP to COP
+  gmf_rate: 0.0034455 # GMF (4x1000) rate for transfering COP to COP if amount is >= tax.uvt_threshold
+
+remitly:
+  fee: 4.0 # Fee for transferring USD to COP
+
+tax:
+  uvt_2025: 49799 # UVT value for 2025
+  # uvt_threshold: ${tax.uvt_2025} * 65
+  uvt_units: 65 # UVT units for threshold calculation
