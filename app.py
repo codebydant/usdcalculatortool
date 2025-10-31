@@ -1,5 +1,5 @@
 from pages import home
 
-
-if __name__ == "__main__":
-    home.page()
+home.page()
+# if __name__ == "__main__":
+#     home.page()

@@ -155,7 +155,7 @@ baseUrlPath = ""
 # same time, Streamlit will enable them both instead.
 #
 # Default: true
-enableCORS = true
+enableCORS = false
 
 # Allowed list of origins.
 #
@@ -177,7 +177,7 @@ corsAllowedOrigins = []
 # same time, Streamlit will enable them both instead.
 #
 # Default: true
-enableXsrfProtection = true
+enableXsrfProtection = false
 
 # Max size, in megabytes, for files uploaded with the file_uploader.
 #
@@ -227,3 +227,12 @@ disconnectedSessionTTL = 120
 # recommend performing SSL termination by the load balancer or the reverse
 # proxy.']
 # sslKeyFile =
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+
+# [global]
+# storeCachedForwardMessagesInMemory = false
